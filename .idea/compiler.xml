@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="study-swagger" />
+        <module name="study-generate" />
       </profile>
     </annotationProcessing>
   </component>

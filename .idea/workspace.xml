@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="460a87a2-920f-4521-a50a-b8131ca4a220" name="Default Changelist" comment="" />
+    <list default="true" id="460a87a2-920f-4521-a50a-b8131ca4a220" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/src/main/java/generate/AutoGenerate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/src/main/resources/codeTemp/controller.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/src/main/resources/codeTemp/entity.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/src/main/resources/codeTemp/entityBase.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/src/main/resources/codeTemp/entityBaseDto.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/src/main/resources/codeTemp/entityBaseInfo.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/src/main/resources/codeTemp/entityDo.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/src/main/resources/codeTemp/entityDto.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/src/main/resources/codeTemp/entityInfo.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/src/main/resources/codeTemp/mapper.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/src/main/resources/codeTemp/mapper.xml.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/src/main/resources/codeTemp/mapperWrapper.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/src/main/resources/codeTemp/mapperWrapperImpl.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/src/main/resources/codeTemp/service.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/src/main/resources/codeTemp/serviceImpl.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/src/main/resources/codeTemp/wrapper.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/src/main/resources/codeTemp/wrapperImpl.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-generate/study-generate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,13 +39,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1d4kTZu3lRxueRFrj3xkqSKWRji" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/study-generate/src/main/resources/codeTemp" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\spring-study\study-generate\src\main\resources\codeTemp" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,5 +81,16 @@
       <updated>1591691760264</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
