@@ -18,12 +18,13 @@
         <module>study-aop</module>
         <module>study-common</module>
         <module>study-security</module>
+        <module>study-eureka-server</module>
+        <module>study-eureka-client</module>
     </modules>
 
     <properties>
 
         <java.version>8</java.version>
-
         <springfox.swagger2.version>2.9.2</springfox.swagger2.version>
         <commons.lang3.version>3.8.1</commons.lang3.version>
         <mybatis.plus.generator.version>3.2.0</mybatis.plus.generator.version>
