@@ -20,6 +20,8 @@
         <module>study-security</module>
         <module>study-eureka-server</module>
         <module>study-eureka-client</module>
+        <module>study-user-service</module>
+        <module>study-ribbon-service</module>
     </modules>
 
     <properties>
