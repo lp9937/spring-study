@@ -1,6 +1,9 @@
 package com.study.service.user;
 
+import common.pojo.dto.UserDto;
 import common.pojo.info.UserInfo;
+
+import java.util.List;
 
 /**
  * @author lp
@@ -9,4 +12,6 @@ import common.pojo.info.UserInfo;
  */
 public interface UserService {
     void create(UserInfo info);
+    UserDto get(Long id);
+    List<UserDto> getByIdList(List<Long> idList);
 }

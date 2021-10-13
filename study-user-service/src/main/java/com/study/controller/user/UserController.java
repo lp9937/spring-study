@@ -1,14 +1,16 @@
 package com.study.controller.user;
 
+import common.pojo.dto.UserDto;
 import common.pojo.info.UserInfo;
 import com.study.service.user.UserService;
 import common.api.ResponseResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author lp
@@ -26,5 +28,20 @@ public class UserController {
     public ResponseResult<String> create(@RequestBody UserInfo info){
         userService.create(info);
         return ResponseResult.success("操作成功");
+    }
+
+    @GetMapping(value = "get/{id}")
+    public ResponseResult<UserDto> get(@PathVariable(value = "id")Long id){
+        return ResponseResult.success(userService.get(id));
+    }
+
+    @GetMapping(value = "get/ids/{idList}")
+    public ResponseResult<List<UserDto>> getByIdList(
+            @PathVariable(value = "idList")String idStr){
+        String[] ids = idStr.split(",");
+        List<Long> idList= Arrays.stream(ids)
+                .map(item-> Long.valueOf(item))
+                .collect(Collectors.toList());
+        return ResponseResult.success(userService.getByIdList(idList));
     }
 }
