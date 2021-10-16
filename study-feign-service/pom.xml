@@ -8,12 +8,16 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>com.spring.study</groupId>
-    <artifactId>study-hystrix-service</artifactId>
+    <artifactId>study-feign-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>study-hystrix-service</name>
-    <description>study-hystrix-service</description>
+    <name>study-feign-service</name>
+    <description>study-feign-service</description>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
@@ -21,17 +25,7 @@
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
         <dependency>

@@ -22,6 +22,9 @@
         <module>study-eureka-client</module>
         <module>study-user-service</module>
         <module>study-ribbon-service</module>
+        <module>study-hystrix-service</module>
+        <module>study-hystrix-dashboard</module>
+        <module>study-feign-service</module>
     </modules>
 
     <properties>
