@@ -26,6 +26,8 @@
         <module>study-hystrix-dashboard</module>
         <module>study-feign-service</module>
         <module>study-zuul-service</module>
+        <module>study-config-server</module>
+        <module>study-config-client</module>
     </modules>
 
     <properties>
